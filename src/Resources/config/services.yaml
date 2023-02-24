@@ -1,0 +1,5 @@
+botbund:
+    ovy_fb_api_version: v16.0
+    pagess:
+        access_token: XXX-XXX-XXX-XXX
+        verify_token: XXXXX

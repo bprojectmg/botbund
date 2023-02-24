@@ -1,0 +1,30 @@
+{
+    "name": "bprojectmg/botbund",
+    "type": "symfony-bundle",
+    "description": "Symfony bundle to build a Facebook BotMessenger",
+    "keywords": ["Symfony", "bundle", "bot", "botmessenger", "facebook"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "RAZAFIMANDIMBY Niaina Michaël (balzacLeGeek)",
+            "email": "michaniainar@gmail.com",
+            "homepage": "https://github.com/balzacLeGeek"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bprojectmg\\Botbund\\": "src/"
+        }
+    },
+    "version": "0.1",
+    "require": {
+        "php": ">=7.4",
+        "symfony/framework-bundle": "^5.4",
+        "symfony/yaml": "^5.4"
+    },
+    "extra": {
+        "symfony": {
+            "bundle": "Bprojectmg\\Botbund\\Botbund"
+        }
+    }
+}
